@@ -213,10 +213,3 @@ I also inspected S3 Tables and a related Quick dataset. S3 Tables offer managed 
 3. **Agents should be grounded.** A useful analytics agent distinguishes between numeric results from data and definitions from documentation or knowledge resources.
 4. **Performance optimization should be selective.** Iceberg and pre-aggregation reduce repeated work; SPICE is most useful when chosen for a specific performance need.
 5. **Analytics should lead to decisions.** Market-segment dashboards and hospital operational reports demonstrate how technical pipelines can produce accessible business insights.
-
-## Evidence Notes
-
-- Screenshots are organized by lab and linked using relative paths under `screenshots/`.
-- Workshop screenshots reflect the state captured during the temporary AWS lab session, not a permanently hosted production deployment.
-- Where a screenshot verifies configuration or an output but not a benchmark, this README does not infer unrecorded performance results.
-- The final Athena-to-SPICE lab's instructions were reviewed to document its architecture and decision rationale. Its direct-query dashboard and raw-vs-Iceberg cost comparison are not separately evidenced in the supplied screenshots.
